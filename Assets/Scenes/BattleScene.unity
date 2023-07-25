@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 383363610}
   - component: {fileID: 383363609}
   - component: {fileID: 383363608}
+  - component: {fileID: 383363612}
   m_Layer: 0
   m_Name: Hero 2
   m_TagString: Hero
@@ -228,6 +229,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &383363612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383363607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f971d1e687f704580af4e607cc35aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hero:
+    name: Hero 2
+    baseHp: 60
+    curHp: 60
+    baseMp: 10
+    curMp: 10
+    stamina: 10
+    intellect: 10
+    dexerity: 10
+    agility: 10
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,6 +357,7 @@ GameObject:
   - component: {fileID: 731140368}
   - component: {fileID: 731140367}
   - component: {fileID: 731140366}
+  - component: {fileID: 731140370}
   m_Layer: 0
   m_Name: Enemy 2
   m_TagString: Enemy
@@ -427,6 +451,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &731140370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731140365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19576534c282934985b5b03bf69fe49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy:
+    name: Enemy 2
+    EnemyType: 2
+    rarity: 0
+    baseHp: 25
+    curHp: 25
+    baseMp: 20
+    curMp: 20
+    baseATK: 8
+    curATK: 8
+    baseDEF: 3
+    curDEF: 3
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,6 +685,7 @@ GameObject:
   - component: {fileID: 1477924179}
   - component: {fileID: 1477924178}
   - component: {fileID: 1477924177}
+  - component: {fileID: 1477924181}
   m_Layer: 0
   m_Name: Hero 1
   m_TagString: Hero
@@ -730,6 +779,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1477924181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477924176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f971d1e687f704580af4e607cc35aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hero:
+    name: Hero 1
+    baseHp: 50
+    curHp: 50
+    baseMp: 20
+    curMp: 20
+    stamina: 10
+    intellect: 10
+    dexerity: 10
+    agility: 10
 --- !u!1 &1985783435
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,6 +813,7 @@ GameObject:
   - component: {fileID: 1985783438}
   - component: {fileID: 1985783437}
   - component: {fileID: 1985783436}
+  - component: {fileID: 1985783440}
   m_Layer: 0
   m_Name: Enemy 1
   m_TagString: Enemy
@@ -835,6 +907,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1985783440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985783435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19576534c282934985b5b03bf69fe49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy:
+    name: Enemy 1
+    EnemyType: 1
+    rarity: 0
+    baseHp: 20
+    curHp: 20
+    baseMp: 10
+    curMp: 10
+    baseATK: 5
+    curATK: 5
+    baseDEF: 6
+    curDEF: 6
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -1,18 +1,37 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class BaseEnemy : MonoBehaviour
+[System.Serializable]
+public class BaseEnemy
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public string name;
+
+    public enum Type
+    { 
+        GRASS,
+        FIRE,
+        WATER,
+        ELECTEIC
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public enum Rarity
+    { 
+        COMMON,
+        UNCOMMON,
+        RARE,
+        SUPERRARE
     }
+
+    public Type EnemyType;
+    public Rarity rarity;
+
+    public float baseHp;
+    public float curHp;
+
+    public float baseMp;
+    public float curMp;
+
+    public float baseATK;
+    public float curATK;
+
+    public float baseDEF;
+    public float curDEF;
+
 }

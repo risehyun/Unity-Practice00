@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using Unity.VisualScripting;
+using UnityEngine.AI;
 
-public class BaseHero : MonoBehaviour
+[System.Serializable]
+public class BaseHero
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string name;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public float baseHp;
+    public float curHp;
+
+    public float baseMp;
+    public float curMp;
+
+    public int stamina;
+    public int intellect;
+    public int dexerity;
+    public int agility;
 }
